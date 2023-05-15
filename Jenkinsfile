@@ -9,7 +9,7 @@ pipeline {
 			        }
 			 }
 			  tools {
-			          maven "maven-3.9.2"
+			          maven "maven-3.9.1"
 			         }
 			  
          stages {
@@ -24,7 +24,7 @@ pipeline {
 		      stage ("checkout SCM") {
 			    
 			    steps {
-				        git "https://github.com/chitrangsawant/game-of-life.git"
+				        git "https://github.com/sameerdeore/game-of-life.git"
 				      }
 			     }
 	 
