@@ -32,7 +32,7 @@ pipeline {
 			    
 			    steps {
 				        sh "mvn clean install -DskipTests=true"
-					sh "cp -r /mnt/game-of-life/gameoflife-web/target/gameoflife.war /mnt/servers/tomcat-9/webapps"
+					sh "cp -r /mnt/game-of-life/gameoflife-web/target/gameoflife.war /mnt/servers/tomcat9/webapps"
 				      }
 			 }
 
